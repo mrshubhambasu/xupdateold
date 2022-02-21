@@ -6,8 +6,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"../util"
 	"github.com/dsnet/compress/bzip2"
+	"github.com/mrshubhambasu/xupdate/xupdate/util"
 )
 
 // Bytes takes the old and new byte slices and outputs the diff
