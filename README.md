@@ -1,4 +1,4 @@
-# xupdate
+# xupdate example
 
 To generate the diffrence file (difference between two files)
 
