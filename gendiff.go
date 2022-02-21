@@ -8,11 +8,9 @@ import (
 )
 
 func main() {
-	oldfile := []byte("AB")
-	newfile := []byte("")
+	oldfile := []byte("I love coding!")
+	newfile := []byte("I love coding in golang!")
 	fmt.Println("oldfile byte→", oldfile)
-	//oldfile := []byte{0xfa, 0xdd, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff}
-	//newfile := []byte{0xfa, 0xdd, 0x00, 0x00, 0x00, 0xee, 0xee, 0x00, 0x00, 0xff, 0xfe, 0xfe}
 
 	// generate a BSDIFF4 patch
 	_, err := diff.Bytes(oldfile, newfile)
