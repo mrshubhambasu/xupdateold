@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) != 4 {
-		printusage(1)
+		printUsage(1)
 	}
 	err := merge.File(os.Args[1], os.Args[2], os.Args[3])
 	if err != nil {
